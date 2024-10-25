@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000ea;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: #ffffff18;
+    color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.klas-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+}
+
+.klas-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #00796b;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.klas-box:hover {
+    background-color: #005f55;
+    transform: scale(1.05);
+}
+
+.klas-text {
+    font-size: 0.8em;
+    color: #ffffffaa;
+}
+#back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    color: white;
+    background-color: #00796b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#back-home:hover {
+    background-color: #005f55;
+    transform: scale(1.05);
+}
+
+/* Центрування кнопки внизу сторінки */
+footer {
+    text-align: center;
+    padding: 10px;
+}

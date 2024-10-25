@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формули</title>
+    <link rel="stylesheet" href="css/formulas.css">
+</head>
+<body>
+    <header>
+        <button id="back-home" class="button" onclick="window.location.href='index.html'">Повернутись на головну</button>
+        <h1>Формули</h1>
+        <input type="text" id="search" placeholder="Пошук формул..." onkeyup="filterFormulas()">
+    </header>
+    <main>
+        <div class="formula-container" id="formula-container">
+            <section class="formula-section" data-subject="математика">
+                <h2>Математика</h2>
+                <p>Площа кола: <strong>A = πr²</strong></p>
+                <p>Периметр квадрата: <strong>P = 4a</strong></p>
+                <p>Площа прямокутника: <strong>A = lw</strong></p>
+                <p>Об'єм куба: <strong>V = a³</strong></p>
+                <p>Квадрат суми: <strong>(a + b)² = a² + 2ab + b²</strong></p>
+                <p>Формула квадратного кореня: <strong>x = (-b ± √(b² - 4ac)) / 2a</strong></p>
+                <p>Арифметична середня: <strong>Mean = (x₁ + x₂ + ... + xₙ) / n</strong></p>
+            </section>
+            <section class="formula-section" data-subject="фізика">
+                <h2>Фізика</h2>
+                <p>Сила: <strong>F = ma</strong></p>
+                <p>Енергія: <strong>E = mc²</strong></p>
+                <p>Кінетична енергія: <strong>KE = ½mv²</strong></p>
+                <p>Потенційна енергія: <strong>PE = mgh</strong></p>
+                <p>Швидкість: <strong>v = d/t</strong></p>
+                <p>Закон Ома: <strong>V = IR</strong></p>
+                <p>Тиск: <strong>P = F/A</strong></p>
+            </section>
+            <section class="formula-section" data-subject="хімія">
+                <h2>Хімія</h2>
+                <p>Молярна маса: <strong>M = m/n</strong></p>
+                <p>Концентрація: <strong>C = n/V</strong></p>
+                <p>Закон Бойля: <strong>P₁V₁ = P₂V₂</strong></p>
+                <p>Закон Гей-Люссака: <strong>P₁/T₁ = P₂/T₂</strong></p>
+                <p>Закон Авогадро: <strong>V/n = k</strong></p>
+            </section>
+            <section class="formula-section" data-subject="геометрія">
+                <h2>Геометрія</h2>
+                <p>Площа трикутника: <strong>A = (1/2)bh</strong></p>
+                <p>Периметр трикутника: <strong>P = a + b + c</strong></p>
+                <p>Об'єм циліндра: <strong>V = πr²h</strong></p>
+                <p>Площа паралелепіпеда: <strong>A = 2lw + 2lh + 2wh</strong></p>
+                <p>Об'єм конуса: <strong>V = (1/3)πr²h</strong></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="js/formulas.js"></script>
+</body>
+</html>
